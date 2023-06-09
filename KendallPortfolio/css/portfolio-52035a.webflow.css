@@ -487,30 +487,33 @@ figcaption {
   flex-direction: column;
   align-items: center;
   display: flex;
+  border: solid green 1px;
   }
   
 ._w-title {
   width: 100vw;
-  height: 70vh;
+  height: 50vh;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 150px;
   padding-left: 5vw;
   padding-right: 5vw;
   display: flex;
+  position: relative;
+  border: solid red 1px;
   }
   
 .wide-background {
-  width: 100vw;
-  height: 100vh;
+  width: 70%;
+  height: 50%;
   background-color: #657580;
   margin-bottom: 10%;
   }
   
 .wide-background._01 {
-  background-image: url('../images/5b109a993a8396648e723c7a_screen-001.jpg');
-  background-position: 0 0;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   }
   
 .div-block-10 {
@@ -882,7 +885,14 @@ figcaption {
 .proj_body-wrap {
   width: 90vw;
   text-align: center;
+  border: solid blue 1px;
+  overflow: hidden;
   }
+
+.proj_body-wrap figure {
+  border: solid orange 2px;
+  height: 30% !important;
+}
   
 ._w-form {
   min-height: 400px;

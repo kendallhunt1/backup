@@ -2,32 +2,32 @@ const projects = [
     {
       title: "GoBackz",
       description: "GoBackz UI built using: </br><strong>React, JavaScript, SCSS/CSS.</strong> </br>Functionality of site built using: </br><strong>Node.js, MongoDB, Mongoose, Express, Axios.</strong>",
-      link: "gobackz.html",
+      link: "work.html#gobackz",
       backgroundImage: "./images/gobackzscreen.png"
     },
     {
       title: "Focus Tracks",
       description: "FocusTracks UI built using: </br><strong>React, JavaScript, SCSS/CSS.</strong>",
-      link: "/work/FocusTracks",
+      link: "work.html#focustracks",
       backgroundImage: "./images/focustracks.png"
     },
     {
       title: "Golf-Sidekick",
       description: "Golf-Sidekick UI built using: </br><strong>HTML, EJS, JavaScript, SCSS/CSS.</strong> </br>Functionality of site built using: </br><strong>Node.js, MongoDB, Mongoose, Express.</strong>",
-      link: "/work/Golf-Sidekick",
+      link: "work.html$golfsidekick",
       backgroundImage: "./images/golfsidekick.png"
     },
     {
       title: "Next Level Bets",
       description: "Back-End private application built width: </br><strong>Node.js, JavaScript, MongoDB, Mongoose, Express, Puppeteer.</strong>",
-      link: "a github link",
+      link: "work.html#nextlevelbets",
       backgroundImage: "./images/nflgithub.png"
     },
     {
       title: "NASA API",
       description: "NASA Api UI built using: </br><strong>React, JavaScript, SCSS/CSS.</strong> </br>Functionality of site built using: </br><strong>JavaScript, FetchAPI, NASA API.</strong>",
-      link: "/work/NASAapi",
-      backgroundImage: "./images/working.png"
+      link: "work.html#nasa",
+      backgroundImage: "./images/nasa.png"
     },
   ];
   
